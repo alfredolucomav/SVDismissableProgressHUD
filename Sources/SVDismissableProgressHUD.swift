@@ -48,30 +48,40 @@ public class SVDismissableProgressHUD {
     //MARK: - show dismisseable error
     public func showDismissableError(status: String){
         self.observers()
-        SVProgressHUD.showError(withStatus: status)
+        DispatchQueue.main.async {
+            SVProgressHUD.showError(withStatus: status)
+        }
     }
     
     //MARK: - show dismissable success
     public func showDismissableSuccess(status: String){
         self.observers()
-        SVProgressHUD.showSuccess(withStatus: status)
+        DispatchQueue.main.async {
+            SVProgressHUD.showSuccess(withStatus: status)
+        }
     }
     
     //MARK: - Show dismissable info
     public func showDismissableInfo(status: String){
         self.observers()
-        SVProgressHUD.showInfo(withStatus: status)
+        DispatchQueue.main.async {
+            SVProgressHUD.showInfo(withStatus: status)
+        }
     }
     
     //MARK: - Show dismissable hud
     public func showDismissableMessage(message: String){
         self.observers()
-        SVProgressHUD.show(withStatus: message)
+        DispatchQueue.main.async {
+            SVProgressHUD.show(withStatus: message)
+        }
     }
     
     //MARK: - Show loading
     public func showMessage(status: String){
-        SVProgressHUD.show(withStatus: status)
+        DispatchQueue.main.async {
+            SVProgressHUD.show(withStatus: status)
+        }
     }
     
     //MARK: - Dismiss

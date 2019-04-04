@@ -152,7 +152,6 @@
 				0C8071D0206EF041000FBC70 /* Frameworks */,
 				0C8071D1206EF041000FBC70 /* Headers */,
 				0C8071D2206EF041000FBC70 /* Resources */,
-				784CD8DE4DB0B0312DD64EC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,8 +170,6 @@
 				0C8071D9206EF041000FBC70 /* Sources */,
 				0C8071DA206EF041000FBC70 /* Frameworks */,
 				0C8071DB206EF041000FBC70 /* Resources */,
-				867A4347381523F45432DCFB /* [CP] Embed Pods Frameworks */,
-				84C860DD0AC9C548632828DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,54 +238,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		784CD8DE4DB0B0312DD64EC3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVDismissableProgressHUD/Pods-SVDismissableProgressHUD-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84C860DD0AC9C548632828DA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVDismissableProgressHUDTests/Pods-SVDismissableProgressHUDTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		867A4347381523F45432DCFB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SVDismissableProgressHUDTests/Pods-SVDismissableProgressHUDTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVDismissableProgressHUDTests/Pods-SVDismissableProgressHUDTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9357CEC70814240FD6D0B8DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
